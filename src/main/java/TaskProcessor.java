@@ -15,7 +15,7 @@ public class TaskProcessor {
         Matcher matcher = pattern.matcher(question);
         String name = "";
         String information = "";
-        String suggestion = " Odpowiedz jednym słowem, bez żadnych dodatkowych informacji.";
+        String suggestion = " Answer in one word, with no additional explanations.";
 
         if (matcher.find()) {
             name = matcher.group();
